@@ -66,9 +66,9 @@ function Get-AuthToken {
     
     [System.Reflection.Assembly]::LoadFrom($adalforms) | Out-Null
     
-    $clientId = "d1ddf0e4-d672-4dae-b554-9d5bdfd93547"
+    $clientId = ""
     
-    $redirectUri = "urn:ietf:wg:oauth:2.0:oob"
+    $redirectUri = ""
     
     $resourceAppIdURI = "https://graph.microsoft.com"
     
